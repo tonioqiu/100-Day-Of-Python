@@ -1,0 +1,13 @@
+ASCii ART website
+https://ascii.co.uk/art
+
+You can use print(``` content ```) to print multiple lines as they are show in code
+You can use \ to escape the character
+You can use \n to print a new line
+You can use \t to print a tab
+You can use \b to print a backspace
+You can use \r to print a carriage return
+You can use \f to print a form feed
+You can use \v to print a vertical tab
+You can use \ooo to print a character with octal value ooo
+You can use \xhh to print a character with hex value hh

@@ -1,0 +1,33 @@
+Randomisation allow fun stuff!!!
+Python usese a quasi random generator called Mersenne Twister 
+Khan Academy has a good video on it https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-number-generation
+
+You import the random module with
+import random
+
+a python module is a file that contains python code that you can import into your program to use
+
+You can use random.randint(a,b) to get a random integer between a and b
+You can use random.random() to get a random float between 0 and 1
+You can use random.choice(list) to get a random element from a list
+You can use random.shuffle(list) to shuffle a list
+You can use random.sample(list, k) to get k random elements from a list
+You can use random.uniform(a,b) to get a random float between a and b
+You can use random.seed() to set the seed of the random generator
+You can use random.getstate() to get the state of the random generator
+
+
+Q: What is the difference between a list and a tuple?
+A: A list is mutable, a tuple is immutable
+
+Q: What is the difference between a list and a dictionary?
+A: A list is an ordered sequence of values, a dictionary is an unordered set of key-value pairs
+
+Q: What is the difference between a list and a set?
+A: A list is an ordered sequence of values, a set is an unordered set of unique values
+
+Q: What is the difference between a dictionary and a set?
+A: A dictionary is an unordered set of key-value pairs, a set is an unordered set of unique values
+
+Q: What is the difference between a list and a string?
+A: A list is an ordered sequence of values, a string is an ordered sequence of characters
