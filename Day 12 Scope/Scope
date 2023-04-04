@@ -1,0 +1,33 @@
+################### Scope ####################
+
+enemies = 1
+
+def increase_enemies():
+  enemies = 2
+  print(f"enemies inside function: {enemies}")
+
+increase_enemies()
+print(f"enemies outside function: {enemies}")
+
+# Output:
+# enemies inside function: 2
+# enemies outside function: 1
+
+# Local Scope
+# A variable created inside a function belongs to the local scope of that function, and can only be used inside that function.
+
+# def drink_potion():
+#     potion_strength = 2
+#     print(potion_strength)
+
+# drink_potion()
+# print(potion_strength)
+
+# Global Scope
+# A variable created in the main body of the code is a global variable and belongs to the global scope.
+player_health = 10
+
+def drink_potion():
+    potion_strength = 2
+    print(player_health)
+
